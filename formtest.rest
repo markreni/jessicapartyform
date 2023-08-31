@@ -1,0 +1,16 @@
+GET http://127.0.0.1:3003/api/blogs/
+
+###
+
+POST http://127.0.0.1:3003/api/forms/
+Content-Type: application/json
+
+{
+    "firstName": "Mark",
+    "lastName": "Buba",
+    "email": "buba@gmail.com",
+    "phoneNumber": "0405673218",
+    "dietaryRestrictions": []
+}
+
+
